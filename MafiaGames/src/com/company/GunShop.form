@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.company.GunShop">
+  <grid id="27dc6" binding="GunShopPanel" layout-manager="GridLayoutManager" row-count="6" column-count="23" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1184" height="491"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="cccca" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="23" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="22"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Магазин Оружия"/>
+        </properties>
+      </component>
+      <component id="a3ad1" class="javax.swing.JButton" binding="GunButton1">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Купить"/>
+        </properties>
+      </component>
+      <component id="ff5c8" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="knife.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="82964" class="javax.swing.JLabel" binding="GunLabel1">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Нож. Цена 100"/>
+        </properties>
+      </component>
+      <component id="cab42" class="javax.swing.JLabel" binding="GunLabel4">
+        <constraints>
+          <grid row="2" column="12" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Томсон. Цена 5400"/>
+        </properties>
+      </component>
+      <component id="62893" class="javax.swing.JButton" binding="GunButton5">
+        <constraints>
+          <grid row="4" column="16" row-span="1" col-span="7" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Купить"/>
+        </properties>
+      </component>
+      <component id="50e42" class="javax.swing.JLabel" binding="GunLabel5">
+        <constraints>
+          <grid row="2" column="16" row-span="1" col-span="7" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="RPG. Цена 12500"/>
+        </properties>
+      </component>
+      <component id="5c002" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="16" row-span="1" col-span="7" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="RPG.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="ed3e0" class="javax.swing.JLabel" binding="MoneyLabel2">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <font size="24"/>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="1d617" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="14"/>
+          <text value="Количество денег:"/>
+        </properties>
+      </component>
+      <vspacer id="a89b">
+        <constraints>
+          <grid row="5" column="16" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="6d4f9" class="javax.swing.JButton" binding="HomeButton">
+        <constraints>
+          <grid row="5" column="22" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Вернутся назад"/>
+        </properties>
+      </component>
+      <vspacer id="bfd88">
+        <constraints>
+          <grid row="5" column="17" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="b2c2b">
+        <constraints>
+          <grid row="5" column="19" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="16789">
+        <constraints>
+          <grid row="5" column="18" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="9255e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Принесет 1ор. и +1мон/клик"/>
+        </properties>
+      </component>
+      <component id="79b16" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="16" row-span="1" col-span="7" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Принесет 8ор. и +9мон/клик"/>
+        </properties>
+      </component>
+      <vspacer id="c42cd">
+        <constraints>
+          <grid row="5" column="20" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="4957f" class="javax.swing.JButton" binding="GunButton2">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Купить"/>
+        </properties>
+      </component>
+      <component id="88718" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="Revolver.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="11ffb" class="javax.swing.JLabel" binding="GunLabel2">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Револьвер. Цена 550"/>
+        </properties>
+      </component>
+      <component id="cedec" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Принесет 2ор. и +2мон/клик"/>
+        </properties>
+      </component>
+      <component id="bf154" class="javax.swing.JButton" binding="GunButton3">
+        <constraints>
+          <grid row="4" column="5" row-span="1" col-span="6" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Купить"/>
+        </properties>
+      </component>
+      <vspacer id="ddbe8">
+        <constraints>
+          <grid row="5" column="21" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="d2186" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="5" row-span="1" col-span="7" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="UMP.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="91bd3" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="5" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Принесет 3ор. и +4мон/клик"/>
+        </properties>
+      </component>
+      <component id="5c948" class="javax.swing.JLabel" binding="GunLabel3">
+        <constraints>
+          <grid row="2" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="UMP. Цена 1750"/>
+        </properties>
+      </component>
+      <component id="6c7ed" class="javax.swing.JButton" binding="GunButton4">
+        <constraints>
+          <grid row="4" column="11" row-span="1" col-span="5" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Купить"/>
+        </properties>
+      </component>
+      <component id="2f78d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="16"/>
+          <text value="Количество оружия:"/>
+        </properties>
+      </component>
+      <component id="e46c1" class="javax.swing.JLabel" binding="GunLabel">
+        <constraints>
+          <grid row="5" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="18"/>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="c14d0" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="12" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="Tomson.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="3920d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="12" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Принесет 5ор. и +6мон/клик"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
